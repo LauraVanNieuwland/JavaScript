@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/assesment_js.css">
+
+
+  <title>Document</title>
+</head>
+<body>
+  <a href="index.html">Index</a>
+  <script src="js/assesment_js.js" defer></script>
+
+
+  <div class="new-excercise">
+    <h2>The Silly Word Generator</h2>
+    <p>You have been provided with some raw HTML/CSS and a few text strings and JavaScript 
+      functions; you need to write the necessary JavaScript to turn this into a working program, 
+      which does the following:</p>
+    <ul>
+        <li>Generates a silly story when the "Generate random story" button is pressed.</li>
+        <li>Replaces the default name "Bob" in the story with a custom name, only if a custom name is entered into the "Enter custom name" text field before the generate button is pressed.</li>
+        <li>Converts the default US weight and temperature quantities and units in the story into UK equivalents if the UK radio button is checked before the generate button is pressed.</li>
+        <li>Will generate another random silly story if you press the button again (and again...)</li>
+    </ul>
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="text" placeholder="">
+    </div>
+    <div>
+      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <p class="story"></p>
+    
+  </div>
+
+  
+</body>
+</html>

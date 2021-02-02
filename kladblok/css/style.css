@@ -1,0 +1,11 @@
+/* Import files */
+@import url("click_event_name.css");
+@import url("guess_the_number.css");
+@import url("basic_math.css");
+
+
+.new-exercise {
+  border: black solid 1px;
+  margin: 10px;
+  padding: 10px;
+}
